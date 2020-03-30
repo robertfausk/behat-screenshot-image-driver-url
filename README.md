@@ -48,7 +48,7 @@ default:
             image_drivers:
                 url:
                     screenshot_directory: /var/www/html/public/screenshots # your local web server dir where the image gets saved
-                    screenshot_url: https://acme/screenshots # used for craetion of web url; could also be something like https://localhost:9000/screenshots
+                    screenshot_url: https://acme/screenshots # used for creation of web url; could also be something like https://localhost:9000/screenshots
                     # you can use something similar in your ci:
                     # screenshot_url: https://acme.test.my-company.com/screenshots
                     
