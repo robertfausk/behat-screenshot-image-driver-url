@@ -64,10 +64,14 @@ So you can open it directly from log output:
     Given I have a step               # FeatureContext::passingStep()
     When I have a failing step        # FeatureContext::failingStep()
       Error (Exception)
-Screenshot has been taken. Open image at /var/www/html/public/screenshots/IMAGE_LINK.png or  https://acme/screenshots/IMAGE_LINK.png
+Screenshot has been taken. Open image at /var/www/html/public/screenshots/IMAGE_LINK.png or https://acme/screenshots/IMAGE_LINK.png
     Then I should have a skipped step # FeatureContext::skippedStep()
 ```
 
+![console output example of behat screenshot image driver url](doc/images/console_output.png)
+
+
 ### How to upgrade?
 
- Have a look at [CHANGELOG](CHANGELOG.md) for detailed information.
+Have a look at [CHANGELOG](CHANGELOG.md) for detailed information.
+
