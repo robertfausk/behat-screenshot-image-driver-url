@@ -1,0 +1,27 @@
+{
+    "name": "robertfausk/behat-screenshot-image-driver-url",
+    "type": "library",
+    "description": "Url image driver for bex/behat-screenshot behat extension",
+    "keywords": ["tdd","bdd","behat", "behat-screenshot", "screenshot", "image", "driver"],
+    "homepage": "https://github.com/robertfausk/behat-screenshot-image-driver-url",
+    "license": "MIT",
+    "require": {
+        "php" : ">=5.6",
+        "bex/behat-screenshot": "^1.2"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bex\\Behat\\ScreenshotExtension\\Driver\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
