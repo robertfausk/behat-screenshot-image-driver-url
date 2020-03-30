@@ -46,7 +46,7 @@ default:
       Bex\Behat\ScreenshotExtension:
           active_image_drivers: url
             image_drivers:
-                docker_image:
+                url:
                     screenshot_directory: /var/www/html/public/screenshots # your local web server dir where the image gets saved
                     screenshot_url: https://acme/screenshots # used for craetion of web url; could also be something like https://localhost:9000/screenshots
                     # you can use something similar in your ci:
