@@ -42,9 +42,9 @@ You have to choose where to upload files and the web address:
 
 ```yml
 default:
-  extensions:
-      Bex\Behat\ScreenshotExtension:
-          active_image_drivers: url
+    extensions:
+        Bex\Behat\ScreenshotExtension:
+            active_image_drivers: url
             image_drivers:
                 url:
                     screenshot_directory: /var/www/html/public/screenshots # your local web server dir where the image gets saved
