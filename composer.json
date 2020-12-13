@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "php" : ">=5.6",
-        "bex/behat-screenshot": "^1.2"
+        "bex/behat-screenshot": "^1.2|^2.0"
     },
     "require-dev": {
     },
